@@ -316,10 +316,6 @@ PRODUCT_PACKAGES += \
     move_time_data.sh \
     move_wifi_data.sh
 
-#Remove
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
