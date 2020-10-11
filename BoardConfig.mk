@@ -167,19 +167,6 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
-# Override gapps
-TARGET_GAPPS_OVERRIDE += \
-    AudioFX \
-    Email \
-    Etar \
-    GalleryGoPrebuilt \
-    Jelly \
-    Snap \
-    MusicFX \
-    Browser \
-    Music Eleven \
-    UnifiedEmail
-
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
